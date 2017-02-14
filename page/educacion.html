@@ -64,9 +64,48 @@
       </table>
     </section>
     <h2>Agregar Estudios</h2>
-
     <article>
-          
+          <form autocomplete="on" name="agregar estudios" >
+          	<fieldset>
+          		<legend>Ingresa la siguiente información:</legend>
+          		<p><label for="lista"><strong>Año:</strong></label>
+          			<select name="lista">
+          				<option value="1">2016</option>
+          				<option value="2">2015</option>
+          				<option value="3">2014</option>
+          				<option value="4">2013</option>
+          				<option value="5">2012</option>
+          				<option value="6">2011</option>
+          				<option value="7">2010</option>
+          				<option value="8">2009</option>
+          				<option value="9">2008</option>
+          				<option value="10">2007</option>
+          				<option value="11">2006</option>
+          				<option value="12">2005</option>
+          				<option value="13">2004</option>
+          				<option value="14">2003</option>
+          				<option value="15">2002</option>
+          			</select>
+          		</p>
+          		<p>
+          			<label for="institucion"><strong>Educación:</strong></label>
+          			<input type="text" name="institucion" placeholder="Institución de procedencia" id="institucion" autofocus required>
+          		</p>
+          		<p>
+          			<label for="lugar"><strong>Lugar: </strong></label>
+          			<textarea rows="0" cols="25" placeholder="Escribe el lugar donde realizaste tus estudios" required></textarea>
+          		</p>
+          		<p>
+          			<label for="culmino"> <strong>¿Estudios culminados?</strong></label><br/>
+          			<input type="radio" name="culmino" id="culmino">Sí<br/>
+          			<input type="radio" name="culmino" id="culmino">No<br/>
+          		</p>
+          		<p>
+          			<input type="submit" value="Enviar">
+          		</p>
+
+          	</fieldset>
+          </form>
     </article>
     <footer>
       <p id="pie"><strong>Información de contacto:</strong></p>
@@ -76,6 +115,5 @@
         <li><strong>Dirección: </strong>Calle 1523 # 123. Secc. 6 Aragón.</li>
       </ul>
     </footer>
-
   </body>
 </html>	
